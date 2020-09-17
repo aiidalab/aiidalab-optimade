@@ -1,1 +1,2 @@
+numpy~=1.17.5
 optimade-client~=2020.9.16.dev2
