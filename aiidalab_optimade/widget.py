@@ -1,9 +1,11 @@
+import warnings
+
 try:
     from aiidalab_widgets_base.databases import OptimadeQueryWidget
 except ImportError:
     OptimadeQueryWidget = object
 
-import warnings
+warnings.filterwarnings(action='once')
 
 warnings.warn(
     (
