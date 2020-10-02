@@ -1,9 +1,9 @@
 {
     "title": "OPTIMADE Client",
     "description": "Query for and import structures from OPTIMADE providers (COD, Materials Cloud, NoMaD, Materials Project, OQMD, and more ...).",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "authors": "Casper Welzel Andersen",
-    "state": "development",
+    "state": "stable",
     "logo": "img/optimade-no-text-transparent-bg.png",
     "external_url": "https://www.optimade.org"
 }
