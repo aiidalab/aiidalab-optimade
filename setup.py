@@ -11,6 +11,9 @@ with open(TOP_DIR.joinpath("metadata.json")) as handle:
 with open(TOP_DIR.joinpath("requirements.txt")) as handle:
     REQUIREMENTS = handle.read()
 
+with open(TOP_DIR.joinpath("requirements_dev.txt")) as handle:
+    DEV = handle.read()
+
 setup(
     name="aiidalab-optimade",
     version=METADATA["version"],
@@ -21,4 +24,5 @@ setup(
     url="https://github.com/aiidalab/aiidalab-optimade",
     packages=find_packages(),
     install_requires=REQUIREMENTS,
+    extras_require={"dev": DEV}
 )
