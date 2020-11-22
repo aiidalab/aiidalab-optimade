@@ -1,1 +1,1 @@
-optimade-client~=2020.11.5
+optimade-client~=2020.11.22
