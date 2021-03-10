@@ -5,5 +5,10 @@
     "authors": "Casper Welzel Andersen",
     "state": "stable",
     "logo": "img/optimade-no-text-transparent-bg.png",
-    "external_url": "https://www.optimade.org"
+    "external_url": "https://www.optimade.org",
+    "requires": {
+        ">=2.0.1": [
+            "optimade-client~=2021.3.8"
+        ]
+    }
 }
