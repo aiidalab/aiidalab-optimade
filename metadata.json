@@ -9,6 +9,9 @@
     "requires": {
         ">=2.0.1": [
             "optimade-client~=2021.3.8"
+        ],
+        ">=2.0.3": [
+            "optimade-client~=2021.3.16"
         ]
     }
 }
