@@ -7,8 +7,11 @@
     "logo": "img/optimade-no-text-transparent-bg.png",
     "external_url": "https://www.optimade.org",
     "requires": {
-        ">=2.0.1": [
+        ">=2.0.1,<2.0.4": [
             "optimade-client~=2021.3.8"
+        ],
+        ">=2.0.4": [
+            "optimade-client~=2021.5.7"
         ]
     }
 }
