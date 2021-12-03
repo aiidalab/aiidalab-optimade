@@ -1,1 +1,1 @@
-optimade-client~=2021.5.7
+optimade-client~=2021.12.2
